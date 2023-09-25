@@ -42,6 +42,8 @@ code {
 .card1{
   border: 2px solid black;
   margin: 10px;
+  background: white;
+  color: black;
 }
 .mycards{
   display: flex;
@@ -50,6 +52,13 @@ code {
 }
 .card1 p{
   text-align: center;
+}
+.btn{
+  width: 80px;
+  height: 30px;
+  border-radius: 10%;
+  background: #000;
+  color: white;
 }
 
 
