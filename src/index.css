@@ -13,11 +13,24 @@ body {
   color: white;
   box-sizing: border-box; */
 }
-.main{
+.main{    
   background: #000;
   color: white;
   box-sizing: border-box;
-  width: 115%;
+}
+.card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+ margin: 10px 20px 10px 20px;
+
+}
+.mycard{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
 }
 
 
@@ -28,8 +41,6 @@ code {
 .head{
   text-align: center;
 }
-
-
  span{
   background: #d03f3f;
   margin-left: 10px;
@@ -37,28 +48,18 @@ code {
 }
 
  img{
-  height:18rem;
-}
-.card1{
-  border: 2px solid black;
-  margin: 10px;
-  background: white;
-  color: black;
-}
-.mycards{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.card1 p{
-  text-align: center;
-}
-.btn{
-  width: 80px;
-  height: 30px;
-  border-radius: 10%;
-  background: #000;
-  color: white;
+  height:15rem;
 }
 
+.allmonth{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+ .allmonth span{
+   margin-left: 10px;
+ }
+ button{
+  height: 35px;
+ }
 
