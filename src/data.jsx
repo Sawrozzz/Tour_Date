@@ -2,6 +2,7 @@ import image1 from "../src/jungle.jpg";
 import image2 from "../src/river.jpg";
 import image from "../src/nepal.jpg";
 
+
 const Peoples = [{
 
     name :"Nepal",

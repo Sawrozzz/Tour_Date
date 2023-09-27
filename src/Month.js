@@ -23,7 +23,7 @@ function Month({month_name, isSold}){
     <h3>
     {month_name}
     <span>
-    {isSold ? 'Sold Out':  'Available'}
+    {isSold ? 'Sold Out':  ''}
     </span>
     </h3>
     </div>
